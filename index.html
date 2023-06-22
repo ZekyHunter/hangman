@@ -1,6 +1,27 @@
-<button class="button" id="a" onclick="showLetter('a')">A</button>
-<button class="button" id="b" onclick="showLetter('b')">B</button>
-<button class="button" id="c" onclick="showLetter('c')">C</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="intro">
+    <h1>Hangman</h1>
+    <h2>Choose letter below:</h2>
+</div>
+<p id="livesP"></p>
+<br>
+<div class="buttons">
+    <button class="button" id="a" onclick="showLetter('a')">A</button>
+    <button class="button" id="b" onclick="showLetter('b')">B</button>
+    <button class="button" id="c" onclick="showLetter('c')">C</button>
+</div>
+
 <p id="p">your letter:</p>
-<p id="p2"></p>
-<p id="p3"></p>
+<p id="guesses"></p>
+<p id="choice"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
